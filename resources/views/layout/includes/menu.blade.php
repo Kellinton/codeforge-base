@@ -1,7 +1,24 @@
 <ul class="outer-nav">
-    <li class="{{ Request::is('/') ? 'is-active' : '' }}"><a href="{{ url('/') }}">Início</a></li>
-    <li class="{{ Request::is('sobre') ? 'is-active' : '' }}"><a href="{{ url('/sobre') }}">Sobre</a></li>
-    <li class="{{ Request::is('servico') ? 'is-active' : '' }}"><a href="{{ url('/servico') }}">Serviços</a></li>
-    <li class="{{ Request::is('portfolio') ? 'is-active' : '' }}"><a href="{{ url('/portfolio') }}">Portfólio</a></li>
-    <li class="{{ Request::is('contato') ? 'is-active' : '' }}"><a href="{{ url('/contato') }}">Contato</a></li>
+    <a href="{{ url('/') }}"><li>Início</li></a>
+    <a href="{{ url('/sobre') }}"><li>Sobre</li></a>
+    <a href="{{ url('/servico') }}"><li>Serviços</li></a>
+    <a href="{{ url('/portfolio') }}"><li>Portfólio</li></a>
+    <a href="{{ url('/contato') }}"><li>Contato</li></a>
 </ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Obtém a URL atual da página
+    var currentUrl = window.location.href;
+
+    // Obtém todos os elementos <a> dentro da lista 'outer-nav'
+    var navLinks = document.querySelectorAll('.outer-nav a');
+
+    // Verifica se cada link corresponde à URL atual e aplica a classe 'nav-link' se necessário
+    navLinks.forEach(function(navLink) {
+        if (navLink.href === currentUrl) {
+            navLink.classList.add('nav-link');
+        }
+    });
+});
+</script>

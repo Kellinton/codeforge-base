@@ -7,10 +7,10 @@
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
     <a class="device-notification--logo" href="#0">
-      <img src="/img/logo.png" alt="Global">
-      <p>Global</p>
+      <img src="/img/logo.png" alt="Code Forge">
+      <p>Code Forge</p>
     </a>
-    <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+    <p class="device-notification--message">Code Forge has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
   </div>
 
   <div class="perspective effect-rotate-left">
@@ -19,8 +19,8 @@
         <div class="l-wrapper">
           <header class="header">
             <a class="header--logo" href="#0">
-              <img src="/img/logo.png" alt="Global">
-              <p>Global</p>
+              <img src="/img/logo.png" alt="Code Forge">
+              <p>Code Forge</p>
             </a>
             <button class="header--cta cta">Hire Us</button>
             <div class="header--nav-toggle">
@@ -40,7 +40,7 @@
             <li class="l-section section section--is-active">
               <div class="intro">
                 <div class="intro--banner">
-                  <h1>Your next<br>interactive<br>experience</h1>
+                  <h1>SOBRE<br>interactive<br>experience</h1>
                   <button class="cta">Hire Us
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                     <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
